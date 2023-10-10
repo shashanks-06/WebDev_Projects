@@ -1,0 +1,81 @@
+body{
+    background-color: lightskyblue;
+}
+#heading{
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    margin-left: 42%;
+    width: 418px;
+    background-color: bisque;
+}
+.score-container{
+    background-color: violet;
+    border: black solid 2px;
+    width: 418px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+#score{
+    font-size: 25px;
+}
+#result{
+    background-color: tomato;
+    border: black solid 2px;
+    width: 418px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    text-align: center
+}
+/*For whole grid*/
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px ;
+    margin-left: 42%;
+    padding: 10px;
+    border: 3px solid white;
+}
+/* for grid square*/
+.grid div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.grid div:hover{
+    background-color: red;
+    color: white;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:darkred;
+    border: 3px solid white;
+    border-radius: 2px;
+    font-size: 50px;
+    width: 418px;
+    color: lime;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+h2{
+    margin: 10px
+}
+squares{
+    background-color: red;
+}
