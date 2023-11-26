@@ -1,0 +1,54 @@
+.app {
+  position: absolute;
+  width: 405px;
+  height: 200px;
+  border: 1px solid;
+  background-color: rgba(182, 182, 182, 0.1);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgb(206, 206, 206);
+}
+
+#title {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid red;
+  width: 405px;
+  font-weight: normal;
+}
+
+input {
+  position: relative;
+  font-size: 20px;
+  padding: 10px;
+  width: 380px;
+  margin-bottom: 5px;
+}
+
+.form-fields {
+  position: relative;
+  top: 50px;
+}
+
+#register-btn {
+  position: relative;
+  padding: 10px;
+  font-size: 16px;
+  top: 10px;
+  left: 1px;
+}
+
+#confirm {
+  position: absolute;
+  top: 50px;
+  font-size: 23px;
+  font-weight: normal;
+}
