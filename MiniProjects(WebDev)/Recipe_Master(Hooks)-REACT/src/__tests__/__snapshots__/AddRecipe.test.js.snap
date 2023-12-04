@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assignment - RecipeMeister - AddRecipe Component Renders all form fields using Input, InputTags, List, Select & Text components 1`] = `
+<DocumentFragment>
+  <div
+    class="add-recipe"
+  >
+    <h2>
+      Add a Recipe
+    </h2>
+    <div
+      class="input-box"
+    >
+      <span
+        class="label"
+      >
+        Title
+      </span>
+      <input
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="input-box"
+    >
+      <span
+        class="label"
+      >
+        Description
+      </span>
+      <input
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="input-tags"
+    >
+      <span
+        class="label"
+      >
+        Keywords
+      </span>
+      <input
+        placeholder="Type and press enter..."
+        type="text"
+      />
+    </div>
+    <div
+      class="select-list"
+    >
+      <span
+        class="label"
+      >
+        Type
+      </span>
+      <select>
+        <option
+          disabled=""
+          selected=""
+        >
+          Select
+        </option>
+        <option>
+          Vegetarian
+        </option>
+        <option>
+          Vegan
+        </option>
+        <option>
+          Meat
+        </option>
+        <option>
+          Poultry
+        </option>
+        <option>
+          Seafood
+        </option>
+      </select>
+    </div>
+    <div
+      class="input-box"
+    >
+      <span
+        class="label"
+      >
+        Image Url
+      </span>
+      <input
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="list"
+    >
+      <span
+        class="label"
+      >
+        Ingredients
+      </span>
+      <input
+        placeholder="Type and press enter..."
+        type="text"
+      />
+    </div>
+    <div
+      class="text-box"
+    >
+      <span
+        class="label"
+      >
+        Instructions
+      </span>
+      <textarea />
+    </div>
+    <div
+      class="buttons"
+    >
+      <button
+        class="btn small-btn"
+      >
+        Save
+      </button>
+      <button
+        class="btn btn-black small-btn"
+      >
+        Exit
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

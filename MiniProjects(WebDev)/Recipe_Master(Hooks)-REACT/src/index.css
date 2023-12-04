@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+  font-family: "Open Sans", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+h2 {
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+h3 {
+  font-family: "Open Sans", serif;
+  font-size: 13px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Open Sans", serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 18px;
+  opacity: 0.9;
+}
+
+.recipe-meister {
+  position: relative;
+  margin: 20px;
+  width: 682px;
+
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(248, 248, 248);
+  height: max-content;
+}
+
+.recipe-meister > h1 {
+  border-bottom: 1px solid red;
+}
+
+.input-box,
+.input-tags,
+.text-box,
+.list,
+.select-list {
+  position: relative;
+  width: 470px;
+  height: 20px;
+  padding: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  display: inline-block;
+  float: left;
+}
+
+.input-box > .label,
+.input-tags > .label,
+.text-box > .label,
+.list > .label,
+.select-list > .label {
+  position: absolute;
+  font-family: "Open Sans", serif;
+  top: 10px;
+  left: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.input-box > input,
+.list > input {
+  position: absolute;
+  top: 33px;
+  left: 10px;
+  width: 90%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+
+.select-list > select {
+  position: absolute;
+  left: 7px;
+  top: 35px;
+  width: 500px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 12px;
+  font-family: "Open Sans", serif;
+  border-radius: 0px;
+}
+
+.text-box {
+  display: inline;
+  height: max-content;
+}
+.text-box > textarea {
+  position: relative;
+  top: 10px;
+  height: 150px;
+  display: block;
+  left: 10px;
+  width: 95%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 11px;
+  background-color: rgba(0, 0, 0, 0.02);
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.input-tags,
+.list {
+  height: max-content;
+  display: inline;
+}
+.input-tags > input,
+.list > input {
+  position: relative;
+  top: 10px;
+  left: 0px;
+  width: 130px;
+  padding: 5px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.inp-tag {
+  position: relative;
+  top: 10px;
+  font-family: "Open Sans", sans-serif;
+  background: rgb(255, 149, 63);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 50, 82, 1) 0%,
+    rgba(148, 0, 148, 1) 100%
+  );
+  margin-top: 20px;
+  margin: 3px;
+  padding: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 15px;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.list-item {
+  position: relative;
+  top: 10px;
+  font-family: "Open Sans", sans-serif;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 218, 141);
+  margin-top: 20px;
+  margin: 3px;
+  padding: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  display: block;
+}
+
+#controls {
+  position: relative;
+  top: 10px;
+  z-index: 1;
+}
+
+.btn {
+  position: relative;
+  margin: 5px;
+  padding: 24px;
+  border: 1px solid black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  display: block;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: black;
+}
+
+.add-recipe .input-box,
+.add-recipe .input-tags {
+  float: clear;
+}
+
+.add-recipe {
+  position: relative;
+  top: 0px;
+  padding: 0px;
+  padding-left: 00px;
+  margin: 2px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.rem-tag-btn,
+.rem-item-btn {
+  margin-left: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list-item .rem-item-btn {
+  position: absolute;
+  right: 20px;
+  color: rgb(0, 143, 93);
+}
+
+.small-btn {
+  padding: 10px;
+  display: inline-block;
+}
+
+.add-recipe .buttons {
+  position: relative;
+  width: 500px;
+  left: 0px;
+  display: inline-block;
+}
+
+.add-recipe > h2 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: rgb(0, 143, 93);
+}
+
+#home-view {
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe-card {
+  position: relative;
+  left: 15px;
+  width: 300px;
+  height: 250px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: rgb(241, 241, 241);
+  border-radius: 4px;
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.recipe-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.recipe-card h2 {
+  position: relative;
+  left: 0px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.recipe-card h3 {
+  margin: 0px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  height: 20px;
+}
+
+.recipe-card .details {
+  position: relative;
+  top: 140px;
+}
+
+.keywords {
+  position: relative;
+  top: 14px;
+  padding: 0px;
+}
+
+.keyword {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.recipe-detail {
+  margin-bottom: 50px;
+}
+
+.recipe-detail > h2 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: rgb(0, 143, 93);
+}
+
+.recipe-detail > .btn {
+  position: absolute;
+  right: 20px;
+  top: 74px;
+}
+
+.recipe-detail > .recipe-title {
+  font-size: 1.5rem;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+  font-family: "Open Sans", sans-serif;
+}
+
+.recipe-detail > .recipe-img {
+  position: relative;
+  width: 680px;
+  border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-detail > .recipe-desc {
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.7);
+  left: 1px;
+}
+
+.recipe-detail > .recipe-ingredients {
+  position: relative;
+  top: 40px;
+}
+
+.recipe-detail > .recipe-ingredients li {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.recipe-detail > .recipe-instructions {
+  position: relative;
+  top: 60px;
+  white-space: pre-wrap;
+}
+
+.icon {
+  position: absolute;
+  top: 350px;
+  right: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.icon > img {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 30px;
+}
+
+.icon > p {
+  position: absolute;
+  top: 1px;
+  left: 35px;
+  text-align: center;
+  width: 70px;
+  color: rgba(0, 0, 0, 0.7);
+}

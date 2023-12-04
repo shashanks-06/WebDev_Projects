@@ -1,0 +1,551 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assignment - RecipeMeister - App Component App loads initial data using useEffect() 1`] = `
+<DocumentFragment>
+  <div
+    class="recipe-meister"
+  >
+    <h1>
+      Recipe Meister
+    </h1>
+    <div
+      id="controls"
+    >
+      <div
+        class="input-box"
+      >
+        <span
+          class="label"
+        >
+          FIND RECIPES
+        </span>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-black"
+      >
+        Add a Recipe
+      </button>
+    </div>
+    <div
+      id="home-view"
+    >
+      <div
+        class="recipe-card"
+      >
+        <img
+          alt="Butter Chicken"
+          class="recipe-img"
+          src="https://food-images.files.bbci.co.uk/food/recipes/butter_chicken_01541_16x9.jpg"
+        />
+        <div
+          class="details"
+        >
+          <h2>
+            Butter Chicken
+          </h2>
+          <h3>
+            North India's favourite recipe made easy
+          </h3>
+          <div
+            class="keywords"
+          >
+            <div
+              class="keyword"
+            >
+              INDIAN
+            </div>
+            <div
+              class="keyword"
+            >
+              CHICKEN
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recipe-card"
+      >
+        <img
+          alt="Chilly Chicken"
+          class="recipe-img"
+          src="https://food-images.files.bbci.co.uk/food/recipes/chilli_chicken_55870_16x9.jpg"
+        />
+        <div
+          class="details"
+        >
+          <h2>
+            Chilly Chicken
+          </h2>
+          <h3>
+            Sino-Indian favourite dish
+          </h3>
+          <div
+            class="keywords"
+          >
+            <div
+              class="keyword"
+            >
+              CHINESE
+            </div>
+            <div
+              class="keyword"
+            >
+              CHICKEN
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Assignment - RecipeMeister - App Component Clicking on Add Recipe button displays the AddRecipe component 1`] = `
+<DocumentFragment>
+  <div
+    class="recipe-meister"
+  >
+    <h1>
+      Recipe Meister
+    </h1>
+    <div
+      id="controls"
+    >
+      <div
+        class="input-box"
+      >
+        <span
+          class="label"
+        >
+          FIND RECIPES
+        </span>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-black"
+      >
+        Add a Recipe
+      </button>
+    </div>
+    <div
+      id="home-view"
+    >
+      <div
+        class="recipe-card"
+      >
+        <img
+          alt="Butter Chicken"
+          class="recipe-img"
+          src="https://food-images.files.bbci.co.uk/food/recipes/butter_chicken_01541_16x9.jpg"
+        />
+        <div
+          class="details"
+        >
+          <h2>
+            Butter Chicken
+          </h2>
+          <h3>
+            North India's favourite recipe made easy
+          </h3>
+          <div
+            class="keywords"
+          >
+            <div
+              class="keyword"
+            >
+              INDIAN
+            </div>
+            <div
+              class="keyword"
+            >
+              CHICKEN
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recipe-card"
+      >
+        <img
+          alt="Chilly Chicken"
+          class="recipe-img"
+          src="https://food-images.files.bbci.co.uk/food/recipes/chilli_chicken_55870_16x9.jpg"
+        />
+        <div
+          class="details"
+        >
+          <h2>
+            Chilly Chicken
+          </h2>
+          <h3>
+            Sino-Indian favourite dish
+          </h3>
+          <div
+            class="keywords"
+          >
+            <div
+              class="keyword"
+            >
+              CHINESE
+            </div>
+            <div
+              class="keyword"
+            >
+              CHICKEN
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Assignment - RecipeMeister - App Component Clicking on Add Recipe button displays the AddRecipe component 2`] = `
+<DocumentFragment>
+  <div
+    class="recipe-meister"
+  >
+    <h1>
+      Recipe Meister
+    </h1>
+    <div
+      class="add-recipe"
+    >
+      <h2>
+        Add a Recipe
+      </h2>
+      <div
+        class="input-box"
+      >
+        <span
+          class="label"
+        >
+          Title
+        </span>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input-box"
+      >
+        <span
+          class="label"
+        >
+          Description
+        </span>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input-tags"
+      >
+        <span
+          class="label"
+        >
+          Keywords
+        </span>
+        <input
+          placeholder="Type and press enter..."
+          type="text"
+        />
+      </div>
+      <div
+        class="select-list"
+      >
+        <span
+          class="label"
+        >
+          Type
+        </span>
+        <select>
+          <option
+            disabled=""
+            selected=""
+          >
+            Select
+          </option>
+          <option>
+            Vegetarian
+          </option>
+          <option>
+            Vegan
+          </option>
+          <option>
+            Meat
+          </option>
+          <option>
+            Poultry
+          </option>
+          <option>
+            Seafood
+          </option>
+        </select>
+      </div>
+      <div
+        class="input-box"
+      >
+        <span
+          class="label"
+        >
+          Image Url
+        </span>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="list"
+      >
+        <span
+          class="label"
+        >
+          Ingredients
+        </span>
+        <input
+          placeholder="Type and press enter..."
+          type="text"
+        />
+      </div>
+      <div
+        class="text-box"
+      >
+        <span
+          class="label"
+        >
+          Instructions
+        </span>
+        <textarea />
+      </div>
+      <div
+        class="buttons"
+      >
+        <button
+          class="btn small-btn"
+        >
+          Save
+        </button>
+        <button
+          class="btn btn-black small-btn"
+        >
+          Exit
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Assignment - RecipeMeister - App Component Clicking on a RecipeCard causes Recipe component to load and display recipe data 1`] = `
+<DocumentFragment>
+  <div
+    class="recipe-meister"
+  >
+    <h1>
+      Recipe Meister
+    </h1>
+    <div
+      id="controls"
+    >
+      <div
+        class="input-box"
+      >
+        <span
+          class="label"
+        >
+          FIND RECIPES
+        </span>
+        <input
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-black"
+      >
+        Add a Recipe
+      </button>
+    </div>
+    <div
+      id="home-view"
+    >
+      <div
+        class="recipe-card"
+      >
+        <img
+          alt="Butter Chicken"
+          class="recipe-img"
+          src="https://food-images.files.bbci.co.uk/food/recipes/butter_chicken_01541_16x9.jpg"
+        />
+        <div
+          class="details"
+        >
+          <h2>
+            Butter Chicken
+          </h2>
+          <h3>
+            North India's favourite recipe made easy
+          </h3>
+          <div
+            class="keywords"
+          >
+            <div
+              class="keyword"
+            >
+              INDIAN
+            </div>
+            <div
+              class="keyword"
+            >
+              CHICKEN
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="recipe-card"
+      >
+        <img
+          alt="Chilly Chicken"
+          class="recipe-img"
+          src="https://food-images.files.bbci.co.uk/food/recipes/chilli_chicken_55870_16x9.jpg"
+        />
+        <div
+          class="details"
+        >
+          <h2>
+            Chilly Chicken
+          </h2>
+          <h3>
+            Sino-Indian favourite dish
+          </h3>
+          <div
+            class="keywords"
+          >
+            <div
+              class="keyword"
+            >
+              CHINESE
+            </div>
+            <div
+              class="keyword"
+            >
+              CHICKEN
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Assignment - RecipeMeister - App Component Clicking on a RecipeCard causes Recipe component to load and display recipe data 2`] = `
+<DocumentFragment>
+  <div
+    class="recipe-meister"
+  >
+    <h1>
+      Recipe Meister
+    </h1>
+    <div
+      class="recipe-detail"
+    >
+      <button
+        class="btn small-btn"
+      >
+        X
+      </button>
+      <h2>
+        LET'S COOK
+      </h2>
+      <img
+        alt="Chilly Chicken"
+        class="recipe-img"
+        src="https://food-images.files.bbci.co.uk/food/recipes/chilli_chicken_55870_16x9.jpg"
+      />
+      <h1
+        class="recipe-title"
+      >
+        Chilly Chicken
+      </h1>
+      <p
+        class="recipe-desc"
+      >
+        Sino-Indian favourite dish
+      </p>
+      <div
+        class="icon"
+      >
+        <img
+          alt="Poultry"
+          src="poultry.png"
+        />
+        <p>
+          POULTRY
+        </p>
+      </div>
+      <div
+        class="keywords"
+      >
+        <div
+          class="keyword"
+        >
+          CHINESE
+        </div>
+        <div
+          class="keyword"
+        >
+          CHICKEN
+        </div>
+      </div>
+      <div
+        class="recipe-ingredients"
+      >
+        <h3>
+          INGREDIENTS
+        </h3>
+        <ul>
+          <li>
+            1 boneless chicken
+          </li>
+          <li>
+            1 ltr fresh cream
+          </li>
+          <li>
+            2 tbsp soy sauce
+          </li>
+        </ul>
+      </div>
+      <div
+        class="recipe-instructions"
+      >
+        <h3>
+          INSTRUCTIONS
+        </h3>
+        <p>
+          1. Preheat the oven to 220C/200C Fan/Gas 7. Mix together the marinade ingredients in a small ovenproof dish, ideally cast iron, or a small roasting tin. Add the chicken and coat thoroughly in the marinade. Roast for 10 minutes.&lt;br /&gt;2. While the chicken is cooking, make the sauce. Heat the sunflower oil in a medium non-stick frying pan and cook the garlic and ginger over a low heat for 1–2 minutes, or until softened but not coloured, stirring constantly. Add the garam masala, cumin, coriander and turmeric and cook for 30 seconds, stirring.
+
+3.Sprinkle over the fenugreek and chilli flakes and cook for a few seconds more, then add the caster sugar and tomato purée. Cook for 2 minutes, stirring constantly. Add 6 tablespoons cold water and the cream and bring to a simmer. Season with salt, to taste.
+
+4. Take the chicken out of the oven and stir in the creamy sauce. Return to the oven for a further 10 minutes, or until the chicken is tender and the sauce is bubbling.
+
+5.Just before the chicken is done, roughly bash the cardamom pods in a pestle and mortar and remove the husks. Grind the seeds to a powder. Sprinkle the ground cardamom and remaining fenugreek over the butter chicken just before serving.
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

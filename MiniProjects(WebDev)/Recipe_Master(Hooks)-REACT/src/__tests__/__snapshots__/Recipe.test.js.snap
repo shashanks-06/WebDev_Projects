@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Assignment - RecipeMeister - Recipe Component Render Props work as expected 1`] = `
+<DocumentFragment>
+  <div
+    class="recipe-detail"
+  >
+    <button
+      class="btn small-btn"
+    >
+      X
+    </button>
+    <h2>
+      LET'S COOK
+    </h2>
+    <div>
+      Title: Chilly Chicken, Desc: Sino-Indian favourite dish, Image: https://food-images.files.bbci.co.uk/food/recipes/chilli_chicken_55870_16x9.jpg, Keywords: Chinese,chicken, Ingredients: 1 boneless chicken,1 ltr fresh cream,2 tbsp soy sauce, Instructions: 1. Preheat the oven to 220C/200C Fan/Gas 7. Mix together the marinade ingredients in a small ovenproof dish, ideally cast iron, or a small roasting tin. Add the chicken and coat thoroughly in the marinade. Roast for 10 minutes.&lt;br /&gt;2. While the chicken is cooking, make the sauce. Heat the sunflower oil in a medium non-stick frying pan and cook the garlic and ginger over a low heat for 1–2 minutes, or until softened but not coloured, stirring constantly. Add the garam masala, cumin, coriander and turmeric and cook for 30 seconds, stirring.
+
+3.Sprinkle over the fenugreek and chilli flakes and cook for a few seconds more, then add the caster sugar and tomato purée. Cook for 2 minutes, stirring constantly. Add 6 tablespoons cold water and the cream and bring to a simmer. Season with salt, to taste.
+
+4. Take the chicken out of the oven and stir in the creamy sauce. Return to the oven for a further 10 minutes, or until the chicken is tender and the sauce is bubbling.
+
+5.Just before the chicken is done, roughly bash the cardamom pods in a pestle and mortar and remove the husks. Grind the seeds to a powder. Sprinkle the ground cardamom and remaining fenugreek over the butter chicken just before serving., Type: Poultry
+    </div>
+  </div>
+</DocumentFragment>
+`;
