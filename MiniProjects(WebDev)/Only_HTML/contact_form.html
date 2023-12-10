@@ -1,0 +1,53 @@
+<html>
+<head><title>Contact Form</title></head>
+<body>
+    <form action="/" method="get">
+        <table style="background-color: lightgrey;">
+            <tbody>
+                <tr>
+                    <td style="background-color: rgb(234, 160, 25);"> <label for="name">Name</label></td>
+                    <td> <input type="text" name="name" id="name" required></td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(211, 159, 237);"><label for="email">Email</label> </td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(154, 110, 141);"><label for="phone">Phone No.</label></td>
+                    <td><input type="tel" name="phone" id="phone" maxlength="10" minlength="10"></td>
+                </tr>
+                <tr>
+                    <td style="background-color: lightgreen;"><label>Gender</label> </td>
+                    <td>
+                        <input type="radio" name="gender" id="male">Male
+                        <input type="radio" name="gender" id="female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-color:lightsalmon;"><label for="profession">Profession</label required></td>
+                    <td><select name="profession" id="profession">
+                        <option value="Govt">Govt. Employee</option>
+                        <option value="private">Private Employee</option>
+                        <option value="student">Student</option>
+                        <option value="other">Other</option>
+                    </select></td>
+                </tr>
+                <tr style="vertical-align: top;">
+                    <td><label for="message" style="background-color: royalblue">Message</label required></td>
+                    <td><textarea name="message" id="message" cols="50" rows="10" placeholder="Type some message here ....." ></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" name="tnc" id="tnc" required>
+                        <label for="tnc">I accept the terms and conditions</label></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit" style="color: blue; font-size: 15px;background-color: chartreuse; padding: 10px; border: 5px solid black;">SUBMIT</button></td>
+                    <td style="text-align: right;"><button type="reset" style="color: crimson;font-size: 15px; background-color: deepskyblue;padding: 10px; border: 5px solid black; ">RESET</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
