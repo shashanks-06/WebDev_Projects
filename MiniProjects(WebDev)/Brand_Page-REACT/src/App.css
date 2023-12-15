@@ -27,6 +27,13 @@ button {
   height: 32px;
   color: white;
   font-weight: 500;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 button:hover {
@@ -67,17 +74,6 @@ nav ul li:hover {
   height: calc(100vh - 72px);
 }
 
-@keyframes appear {
-  from {
-    opacity: 0;
-    top: -100px;
-  }
-  to {
-    opacity: 1;
-    top: 0;
-  }
-}
-
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -85,10 +81,18 @@ nav ul li:hover {
 }
 
 .hero h1 {
+  position: relative;
+  top: -375px;
   font-weight: 800;
   font-size: 108px;
   line-height: 102px;
-  animation: appear 2s ease-in-out 0s forwards;
+  animation: slideInH1 1s ease-in forwards;
+}
+
+@keyframes slideInH1 {
+  to {
+    top: 0;
+  }
 }
 
 .hero p {
@@ -96,11 +100,18 @@ nav ul li:hover {
   color: var(--gray);
   max-width: 400px;
 }
+.slide-in-P {
+  transform: translateX(-132%);
+  animation: slideInP 1s ease-in 1s forwards;
+}
+@keyframes slideInP {
+  to {
+    transform: translateX(0);
+  }
+}
 
 .hero-btn {
   display: flex;
-  width: 331px;
-  height: 41px;
   gap: 40px;
 }
 
@@ -129,4 +140,17 @@ nav ul li:hover {
 
 .brand-icons img:hover {
   scale: 1.2;
+}
+
+.hero-image {
+  transform: translateX(118%);
+  animation: slideInI 1s ease-in 2s forwards;
+}
+@keyframes slideInI {
+  to {
+    transform: translateX(0);
+  }
+}
+.hero-image:hover {
+  scale: 1.12;
 }
