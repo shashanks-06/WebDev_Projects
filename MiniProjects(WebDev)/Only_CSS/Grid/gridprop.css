@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  background-color: #e2e2e2;
+  padding: 10px;
+  display: grid;
+  height: 100vw;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px 10px;
+}
+
+.item {
+  background-color: tomato;
+  padding: 5px;
+  color: white;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 3;
+    grid-row-start: 1;
+}
+.item-2{
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+}
