@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(49, 49, 22);
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 0.1rem;
+            align-items: baseline;
+            color: violet;
+            background-color: rgb(43, 39, 39);
+        }
+        nav>ul{
+            display: flex;
+            list-style: none;
+            padding-left: 0px;
+            gap: 0.5rem;
+            font-size: 1.3rem;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: brown;
+        }
+        input{
+            width: 20rem;
+            height: auto;
+            padding: 0.2rem;
+            border: 0.2rem solid blue;
+        }
+        .image-container{
+            height: 8rem;
+          
+        }
+        .image-container>img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="hero">
+
+        </div>
+        <nav>
+            <h1>MDN Web Docs</h1>
+            <input type="text" placeholder="search here">
+            <ul>
+                <a href=""><li>Reference</li></a>
+                <a href=""><li>Tutorials</li></a>
+                <a href=""><li>MDN Plus</li></a>
+            </ul>
+        </nav>
+    </header>
+  
+</body>
+</html>
