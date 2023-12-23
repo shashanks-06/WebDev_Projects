@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+  
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin: 2px;
+    float: left;
+    background-color: #91d18b;
+    opacity: 0.5;
+    transition: background-color 200ms ease-in, opacity 200ms ease-in;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+  .box:hover{
+      background-color: #fddb3a;
+      opacity: 1;
+  }
+  
