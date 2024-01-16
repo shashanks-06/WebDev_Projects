@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#2b1055, #7597de);
+  /*The linear-gradient() function in CSS creates a smooth transition between two or more colors along a straight line.
+  It's often used to apply visually appealing gradients to backgrounds, borders, text, or other elements.*/
+  overflow-x: hidden;
+  /*overflow refers to what happens when an element's content bursts beyond its designated box. 
+  Imagine a container overflowing with toys; that's overflow in the CSS world!*/
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000000; /*Higher z-index, so it appears on top*/
+  /*z-index controls the stacking order of elements on a web page, much like layers in a painting.*/
+}
+
+header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a:active {
+  background: #fff;
+  color: #2b1055;
+}
+
+section {
+  position: relative;
+  padding: 100px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(to top, #1c0522, transparent);
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+}
+
+section img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Image will cover the entire box */
+  pointer-events: none;
+  /*The element ignores all pointer events, even if it appears clickable
+   or touchable. It's like turning off its touch sensitivity.*/
+}
+
+section img#moon {
+  mix-blend-mode: screen;
+  /*creating stunning visual effects by blending colors in a unique way, 
+  much like mixing light on a projector.*/
+}
+
+section img#mountains-front {
+  z-index: 10;
+}
+
+#text {
+  position: absolute;
+  right: -350px;
+  color: #fff;
+  white-space: nowrap;
+  /* personal ruler for controlling the spacing between characters, words, and lines 
+  in your web pages.
+  nowrap: Collapses multiple spaces into one but prevents line breaks, even if the text 
+  overflows the element. Imagine cramming words onto a single line, like a long grocery list.*/
+
+  font-size: 7.5vw;
+  z-index: 9;
+}
+
+#btn {
+  text-decoration: none;
+  display: inline-block; /*Buttons will line up horizontally*/
+  /*versatile property that gives you more control over element layout, blending the best of 
+  both inline and block worlds. 
+  Think of it as a shape-shifting chameleon that can adapt to different needs.*/
+
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: #fff;
+  color: #2b1055;
+  font-size: 1.5em;
+  z-index: 9;
+  transform: translateY(100px);
+  /* Element will appear 100px below its original position */
+}
+
+.sec {
+  position: relative;
+  padding: 100px;
+  background: #1c0522;
+}
+
+.sec h2 {
+  font-size: 3.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sec p {
+  font-size: 1em;
+  color: #fff;
+}
