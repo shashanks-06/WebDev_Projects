@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 16px;
+  text-align: center;
+  font-family: "Briem Hand", cursive;
+}
+
+.meme-container {
+  margin-top: 16px;
+  max-width: 440px;
+  margin-inline: auto;
+  background-color: white;
+  /* background-color: rgba(247, 238, 238); */
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.meme-title {
+  margin: 0;
+  font-size: 24px;
+}
+.author {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+}
+
+button {
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  border: none;
+  border-left: 6px solid brown;
+  border-right: 6px solid brown;
+  font: inherit;
+  padding: 12px 36px;
+  font-size: 18px;
+  background-color: white;
+  cursor: pointer;
+}
+button:hover {
+  letter-spacing: 8px;
+  transition: 300ms ease-out;
+}
+button:active {
+  border-left: 6px solid rgb(243, 95, 32);
+  border-right: 6px solid rgb(243, 95, 32);
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+img:not([src]) {
+  display: none;
+}
