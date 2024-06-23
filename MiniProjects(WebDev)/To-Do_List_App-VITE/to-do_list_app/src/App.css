@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  padding: 0.625rem;
+}
+
+.todo-app {
+  width: 100%;
+  max-width: 33.75rem;
+  margin: 100px auto 20px;
+  padding: 40px 30px 30px;
+  background-color: white;
+  border-radius: 0.625rem;
+}
+.todo-app h2 {
+  color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.todo-app img {
+  width: 1.875rem;
+  margin-left: 0.625rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+input {
+  flex: 1; /* to take the full width */
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 0.875rem;
+}
+.addbtn {
+  border: none;
+  outline: none;
+  background-color: #ff5945;
+  color: #fff;
+  padding: 1rem 3.125rem;
+  border-radius: 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+  user-select: none;
+  cursor: pointer;
+  padding: 12px 8px 12px 50px;
+  font-size: 17px;
+  position: relative;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+}
+
+ul li.checked {
+  text-decoration: line-through;
+  color: #555;
+}
+ul li.checked::before {
+  background-image: url(/checked.png);
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deleteBtn {
+  cursor: pointer;
+  font-size: 22px;
+  color: #555;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.deleteBtn:hover {
+  background-color: #edeef0;
+}
+
+.deleteAllBtn {
+  margin-left: 145px;
+  margin-top: 25px;
+  border: none;
+  outline: none;
+  background-color: #ff5945;
+  color: #fff;
+  padding: 1rem 3.125rem;
+  border-radius: 2.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.tracker {
+  font-size: 30px;
+  color: white;
+  background: linear-gradient(#153677, #4e085f);
+  margin-bottom: 35px;
+  padding: 35px;
+  border-radius: 50%;
+}
